@@ -1,0 +1,156 @@
+.login{
+    max-width: 100%; 
+    background-color: #efe9e7;   
+    padding: 60px 30px 60px 30px;
+}
+
+.login h2{
+    color: #603c2f;
+    letter-spacing: 1.5px;
+    line-height: 1.2;
+    font-weight: 900;
+    font-size: 48px;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+} 
+
+.login h3{
+    color: #603c2f;
+    letter-spacing: 1.5px;
+    line-height: 1.2;
+    font-weight: 900;
+    font-size: 26px;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.login-div{
+    width: 40%;
+    padding: 20px;
+    background-color: white;
+    border-top: tomato 3px solid;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+}
+
+@media(max-width:768px){
+    .login-div{
+        width: 80%;
+    }
+}
+
+.login-div h3{
+    margin-bottom: 40px;
+    font-weight: 900;
+}
+
+.login-div p{
+    color: tomato;
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+
+.login-div p a{
+    color: tomato;
+    text-decoration: none;
+    transition: 0.3s;
+    display: block;
+}
+
+.login-div p a:hover{
+    transform: translate(3px,3px);
+}
+
+.login-div label{
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    color: #603c2f;
+    position: relative;
+}
+
+.fa-envelope, .fa-lock{
+    position: absolute;
+    left: 10px;
+    bottom: 2px;
+    font-size: 15px;
+}
+
+.login-input{
+    width: 100%;
+    display: inline;
+    margin: 0px 0px 20px 0px;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 1px 1px 1px lightgray inset;
+    transition: 0.3s;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-indent: 22px;
+}
+
+.login-input:hover{
+    border: 1px solid gray;
+}
+
+@media(max-width:768px){
+    .login-input{
+        margin: 0px 0px 20px 0px;
+        width: 100%;
+    }
+}
+
+.button-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.sign-button{
+    width: 35%;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    background-color: rgb(194, 184, 184);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+}
+
+.sign-button:hover{
+    transform: scale(1.2);
+    box-shadow: 1px 1px 5px gray;
+
+}
+
+.login-button{
+    padding: 10px 0px 10px 0px;
+    width: 35%;
+    color: white;
+    background-color: tomato;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+}
+
+.login-button:hover{
+    transform: scale(1.2);
+    box-shadow: 1px 1px 5px gray;
+
+}

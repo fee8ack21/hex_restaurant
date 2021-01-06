@@ -1,0 +1,177 @@
+.register{
+    padding: 60px 30px 60px 30px;
+    max-width: 100%; 
+    background-color: #efe9e7;   
+}
+
+.register h2{
+    color: #603c2f;
+    letter-spacing: 1.5px;
+    font-weight: 900;
+    font-size: 48px;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    text-align: center;
+} 
+
+.register h3{
+    color: #603c2f;
+    letter-spacing: 1.5px;
+    font-weight: 900;
+    font-size: 26px;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.register-div{
+    width: 70%;
+    padding: 20px;
+    background-color: white;
+    border-top: tomato 3px solid;
+    box-shadow: 1px 1px 5px gray;
+    margin: auto;
+}
+
+@media(max-width:768px){
+    .register-div{
+        width: 80%;
+    }
+}
+
+.register2{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width:768px){
+    .register2{
+        display: block;
+    }
+}
+
+.register-word{
+    box-sizing: border-box;
+    width: 45%;
+}
+
+@media(max-width:768px){
+    .register-word{
+        margin-bottom: 40px;
+        width: 100%;
+    }
+}
+
+
+.register-word h4{
+    color: #603c2f;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-bottom: 20px;    
+    line-height: 1.2;
+}
+
+
+.register-word p{
+    color: #603c2f;
+    letter-spacing: 1.5px;
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 1.2;
+    font-weight: 100;
+}
+
+
+.register-form{
+    box-sizing: border-box;
+    width: 45%;
+}
+
+
+@media(max-width:768px){
+    .register-form{
+        width: 100%;
+    }
+}
+
+.register-form p{
+    color: tomato;
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.register-form p a{
+    color: tomato;
+    text-decoration: none;
+    transition: 0.3s;
+    display: block;
+}
+
+.register-form p a:hover{
+    transform: translate(3px,3px);
+}
+
+.register-form label{
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    color: #603c2f;
+    position: relative;
+}
+
+.register-input{
+    width: 100%;
+    display: inline;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 1px 1px 1px lightgray inset;
+    transition: 0.3s;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-indent: 22px;
+}
+
+.register-input:hover{
+    border: 1px solid gray;
+}
+
+.fa-envelope, .fa-lock{
+    position: absolute;
+    left: 10px;
+    bottom: 2px;
+    font-size: 15px;
+}
+
+.register-button{
+    display: block;
+    width: 40%;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    background-color: tomato;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.register-button:hover{
+    transform: scale(1.2);
+    box-shadow: 1px 1px 5px gray;
+
+}
+
+@media(max-width:768px){
+    .register-button{
+        margin: auto;
+    }
+}
