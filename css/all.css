@@ -1023,7 +1023,7 @@ iframe:hover{
         margin: 0px auto 40px auto;
     }
     .fa-search{
-        display: none;
+        display: none !important;
     }
 }
 
