@@ -1022,6 +1022,9 @@ iframe:hover{
         /* float: none; */
         margin: 0px auto 40px auto;
     }
+    .fa-search{
+        display: none;
+    }
 }
 
 
